@@ -1,6 +1,5 @@
 import React, { useState,useEffect } from 'react'
 import axios from 'axios'
-import { Header } from './Header'
 import { Movie } from './Movie'
 import { Search } from './Search'
 
@@ -23,7 +22,6 @@ const consultarApi = async () =>{
 
     return(
         <>
-        <Header />
         <div className="container">
           <div className="l-container">
               <Search setSearch = {setSearch}/>
