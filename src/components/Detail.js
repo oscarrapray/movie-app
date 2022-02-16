@@ -33,7 +33,7 @@ export const Detail = () =>{
                   <p className="info-title">Actors: <span>{info.Actors}</span></p>
                   <p className="info-title"> Plot: <span>{info.Director}</span></p>
 
-                  <Link to={'/'}> <p className="link-home">Regresar</p> </Link>
+                  <Link to={'/'} className="link-home"> Regresar </Link>
             </div>
             </>
             ):
