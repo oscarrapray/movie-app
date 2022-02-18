@@ -18,6 +18,7 @@ const consultarApi = async () =>{
 }
  useEffect(()=>{
      consultarApi()
+     // eslint-disable-next-line
  },[search])
 
     return(

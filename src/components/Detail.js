@@ -16,6 +16,7 @@ export const Detail = () =>{
 
     useEffect(()=>{
       consultarApi()
+      // eslint-disable-next-line
     },[dato])
     return(
         <div className="detalle-info">
